@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Assignment</title>
+  </head>
+  <body>
+    <h1>User Registration Form</h1>
+    <form>
+      <label
+        >First Name :
+        <input type="text" required />
+      </label>
+      <br />
+      <br />
+      <label
+        >Last Name :
+        <input type="text" required />
+      </label>
+      <br />
+      <br />
+      <label
+        >Password :
+        <input type="password" required />
+      </label>
+      <br />
+      <br />
+      <label
+        >Bio:
+        <textarea></textarea>
+      </label>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Gender</legend>
+        <br />
+        <label>
+          <input
+            type="radio"
+            name="Insan"
+            value="male"
+            required
+          />Male<br /><br />
+        </label>
+        <label
+          ><input
+            type="radio"
+            name="Insan"
+            value="female"
+            required
+          />Female<br /><br />
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="Insan"
+            value="other"
+            required
+          />Others<br /><br />
+        </label>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Interests</legend>
+        <br />
+        <label>
+          <input
+            type="checkbox"
+            name="Insan"
+            value="music"
+            required
+          />Music<br /><br />
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            name="Insan"
+            value="sports"
+            required
+          />Sports<br /><br />
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            name="Insan"
+            value="reading"
+            required
+          />Reading<br /><br />
+        </label>
+      </fieldset>
+      <br />
+      <label>
+        Country :
+        <select required>
+          <option value="Pakistan">Pakistan</option>
+          <option value="America">America</option>
+          <option value="Canada">Canada</option>
+          <option value="Turkey">Turkey</option>
+        </select>
+      </label>
+      <br />
+      <br />
+      <label
+        >Preferred Colors :
+        <select multiple="multiple" required>
+          <option value="Yellow" selected="selected">Yellow</option>
+          <option value="Green">Green</option>
+          <option value="Blue">Blue</option>
+          <option value="Pink" selected="selected">Pink</option>
+        </select>
+      </label>
+      <br />
+      <br />
+      <label
+        >Profile Picture :
+        <input type="file" accept="image/*" required />
+      </label>
+      <br />
+      <br />
+      <label
+        >Birthday :
+        <input type="date" required />
+      </label>
+      <br />
+      <br />
+      <label
+        >Email :
+        <input type="email" required />
+      </label>
+      <br />
+      <br />
+      <label
+        >Website :
+        <input type="url" required />
+      </label>
+      <br />
+      <br />
+      <label
+        >Search :
+        <input type="search" required />
+      </label>
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

@@ -7,16 +7,16 @@
   </head>
   <body>
     <h1>User Registration Form</h1>
-    <form>
+    <form action="./thank.html">
       <label
         >First Name :
-        <input type="text" required />
+        <input type="text" name="first name" required />
       </label>
       <br />
       <br />
       <label
         >Last Name :
-        <input type="text" required />
+        <input type="text" name="last name" required />
       </label>
       <br />
       <br />
@@ -69,7 +69,6 @@
             type="checkbox"
             name="Insan"
             value="music"
-            required
           />Music<br /><br />
         </label>
         <label>
@@ -77,7 +76,6 @@
             type="checkbox"
             name="Insan"
             value="sports"
-            required
           />Sports<br /><br />
         </label>
         <label>
@@ -85,7 +83,6 @@
             type="checkbox"
             name="Insan"
             value="reading"
-            required
           />Reading<br /><br />
         </label>
       </fieldset>
@@ -93,6 +90,7 @@
       <label>
         Country :
         <select required>
+          <option value="Pakistan" disabled selected>Choose Country</option>
           <option value="Pakistan">Pakistan</option>
           <option value="America">America</option>
           <option value="Canada">Canada</option>
@@ -103,7 +101,7 @@
       <br />
       <label
         >Preferred Colors :
-        <select multiple="multiple" required>
+        <select multiple="multiple">
           <option value="Yellow" selected="selected">Yellow</option>
           <option value="Green">Green</option>
           <option value="Blue">Blue</option>
@@ -120,30 +118,29 @@
       <br />
       <label
         >Birthday :
-        <input type="date" required />
+        <input type="date" name="date" required />
       </label>
       <br />
       <br />
       <label
         >Email :
-        <input type="email" required />
+        <input type="email" name="email" required />
       </label>
       <br />
       <br />
       <label
         >Website :
-        <input type="url" required />
+        <input type="url" name="url" required />
       </label>
       <br />
       <br />
       <label
         >Search :
-        <input type="search" required />
+        <input type="search" name="search" required />
       </label>
       <br />
       <br />
       <button type="submit">Submit</button>
     </form>
-    <h2>Form</h2>
   </body>
 </html>
